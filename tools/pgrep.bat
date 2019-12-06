@@ -1,0 +1,1 @@
+rakudo pgrep.p6 %*

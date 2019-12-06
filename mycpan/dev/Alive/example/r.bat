@@ -1,0 +1,1 @@
+perl6 -Ie:/user/rp/perl6/mycpan/lib scan.p6 ticker.p6

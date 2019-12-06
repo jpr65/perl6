@@ -1,0 +1,1 @@
+prove6 --incdir ../src --verbose %*

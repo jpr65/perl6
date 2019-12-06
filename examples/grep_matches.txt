@@ -1,0 +1,15 @@
+# search for <file> for files mapping /.p.?6$/ in e:/user/rp/perl6/examples
+# 2019-12-03 15:36:23
+E:\user\rp\perl6\examples\file_open.p6:4:my str $path = $*SPEC.catdir($*PROGRAM-NAME.IO.dirname, "file_open.p6");
+E:\user\rp\perl6\examples\file_open.p6:11:my $filename = "test_file.txt";
+E:\user\rp\perl6\examples\file_open.p6:12:my IO::Handle $output = open($filename, :w)
+E:\user\rp\perl6\examples\file_open.p6:13:    or die "Could not open $filename for writing $!\n";
+E:\user\rp\perl6\examples\file_open.p6:16:# File-access modes
+E:\user\rp\perl6\examples\file_open.p6:19:# :w      write, automatically creating non existing files and emptying existing files
+E:\user\rp\perl6\examples\file_open.p6:20:# :a      append, keep the file intact and enable to write at the end of it
+E:\user\rp\perl6\examples\file_open.p6:25:#      write and read (overwriting a a file) will we have this?
+E:\user\rp\perl6\examples\file_open.p6:27:# Closing the file
+E:\user\rp\perl6\examples\io.p6:4:# my $file_content = "./io.p6".IO.slurp;
+E:\user\rp\perl6\examples\io.p6:6:# say $file_content;
+E:\user\rp\perl6\examples\lazy_evol.p6:8:# Lazily read words from a file
+E:\user\rp\perl6\examples\lazy_evol.p6:9:.say for '50TB.file.txt'.IO.words;
